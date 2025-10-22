@@ -1,5 +1,10 @@
 # Random Quote Machine
 
+
+## SITE
+https://random-citation.netlify.app/
+
+
 ## Apercu
 Random Quote Machine est une application React qui affiche des citations aleatoires en s appuyant sur TypeScript et Vite. Au montage, l app charge une collection de citations depuis un jeu de donnees public, les memorise dans l etat global, puis permet a l utilisateur de parcourir la liste pour decouvrir de nouvelles inspirations.
 
