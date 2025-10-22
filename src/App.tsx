@@ -1,12 +1,12 @@
 
 import { useState } from 'react'
 import Citation from './components/Citation'
-import type { listtype } from './types'
+import type { Quote } from './types'
 
 function App() {
 
 
-  const [list, setList] = useState<listtype[]>([])
+  const [list, setList] = useState<Quote[]>([])
   return (
     <>
       <Citation list={list} setList={setList} />
